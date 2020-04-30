@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+}
+
+.logo {
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+.navlinks ul {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.navlinks li {
+  list-style: none;
+  padding: 1rem;
+  display: block;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navlinks ul li:hover {
+  background-color: rgb(241, 50, 88);
+  border-radius: 10px;
+}
