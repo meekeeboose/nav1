@@ -5,19 +5,20 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: crimson;
+  background: #713045;
 }
 
 .logo {
   margin: 1rem;
   font-size: 3rem;
+  color: #c94e4e;
 }
 
 .navlinks ul {
@@ -35,10 +36,15 @@ body {
 .navlinks a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .navlinks ul li:hover {
-  background-color: rgb(241, 50, 88);
+  background-color: #c94e4e;
   border-radius: 10px;
+}
+
+section {
+  background: #c94e4e;
+  height: 90vh;
 }
